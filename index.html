@@ -3,79 +3,687 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Little Star Playhouse in Janakpurdham — A Safe Place for Little Stars to Shine.">
+  <title>Little Star Playhouse | A Safe Place for Little Stars to Shine | Janakpurdham</title>
+  <meta name="description" content="Little Star Playhouse in Janakpurdham-4, Nepal. Offering Playgroup, Nursery, Daycare, and Play Zone. A safe, loving, and joyful place for little stars to shine.">
+  <meta name="keywords" content="Little Star Playhouse, Preschool Janakpurdham, Daycare Janakpur, Nursery Janakpurdham, Playgroup Dhanusha, Montessori Nepal">
+  <meta name="author" content="Little Star Playhouse">
   <meta name="theme-color" content="#1976D2">
-  <title>Little Star Playhouse | Janakpurdham</title>
+  <link rel="canonical" href="https://littlestarplayhouse.com.np">
+
+  <!-- OpenGraph / Social Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://littlestarplayhouse.com.np/">
+  <meta property="og:title" content="Little Star Playhouse | Janakpurdham">
+  <meta property="og:description" content="A Safe Place for Little Stars to Shine. Quality preschool education, daycare, and play-based learning in Janakpurdham-4.">
+  <meta property="og:image" content="images/nepali-new-year-2083-admission.jpg">
+
+  <!-- Google Fonts: Nunito, Poppins & Mukta for Devanagari -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&family=Nunito:wght@400;600;700;800;900&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org JSON-LD for Local School / Childcare SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["ChildCare", "EducationalOrganization"],
+    "name": "Little Star Playhouse",
+    "alternateName": "लिटल स्टार प्लेहाउस",
+    "slogan": "A Safe Place for Little Stars to Shine",
+    "description": "Preschool, Daycare, Nursery, and Play Zone in Janakpurdham-4, Dhanusha, Nepal.",
+    "url": "https://littlestarplayhouse.com.np",
+    "telephone": "+977-9709142797",
+    "email": "littlestarplayhouse2026@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Ward 4, near old Sanchaykosh Office, Kataiyachauri road",
+      "addressLocality": "Janakpurdham",
+      "addressRegion": "Dhanusha",
+      "postalCode": "45600",
+      "addressCountry": "NP"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "10:00",
+        "closes": "18:00"
+      }
+    ],
+    "image": "images/nepali-new-year-2083-admission.jpg",
+    "priceRange": "$$"
+  }
+  </script>
 </head>
 <body>
-  <div class="topbar"><span data-en="Janakpurdham-4, Dhanusha, Nepal" data-ne="जनकपुरधाम–४, धनुषा, नेपाल">Janakpurdham-4, Dhanusha, Nepal</span><span>☎ <a href="tel:+9779709142797">9709142797</a></span></div>
+
+  <!-- Top Info Bar -->
+  <div class="topbar">
+    <div class="topbar-container">
+      <span class="topbar-item"><span class="topbar-icon">📍</span> <span data-en="Janakpurdham-4, Dhanusha, Nepal (near old Sanchaykosh Office)" data-ne="जनकपुरधाम–४, धनुषा, नेपाल (पुरानो सञ्चयकोष कार्यालय नजिक)">Janakpurdham-4, Dhanusha, Nepal (near old Sanchaykosh Office)</span></span>
+      <div class="topbar-contacts">
+        <a href="tel:+9779709142797" class="topbar-link">☎ 9709142797</a>
+        <a href="https://wa.me/9779709142797" target="_blank" rel="noopener" class="topbar-link whatsapp-pill">💬 WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
   <header class="header">
-    <a class="brand" href="#home" aria-label="Little Star Playhouse home"><span class="brandmark">★</span><span><strong>Little Star Playhouse</strong><small>A Safe Place for Little Stars to Shine</small></span></a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
-    <nav id="nav">
-      <a href="#home" data-en="Home" data-ne="गृहपृष्ठ">Home</a>
-      <a href="#about" data-en="About Us" data-ne="हाम्रो बारेमा">About Us</a>
-      <a href="#programs" data-en="Programs" data-ne="कार्यक्रमहरू">Programs</a>
-      <a href="#admission" data-en="Admission" data-ne="भर्ना">Admission</a>
-      <a href="#contact" data-en="Contact" data-ne="सम्पर्क">Contact</a>
-      <button id="languageToggle" class="language">नेपाली</button>
-    </nav>
+    <div class="header-container">
+      <a class="brand" href="#home" aria-label="Little Star Playhouse home">
+        <!-- SVG Logo: Star + House + Blocks with Brand Colors -->
+        <svg class="brand-icon" viewBox="0 0 100 100" width="46" height="46" aria-hidden="true">
+          <!-- Base/Grass: Leaf Green #8BC34A -->
+          <path d="M8 82 Q50 74 92 82 Q50 92 8 82 Z" fill="#8BC34A"/>
+          <!-- House body: Warm cream with Royal Blue #1976D2 outline -->
+          <rect x="24" y="48" width="52" height="34" rx="4" fill="#FFF8E1" stroke="#1976D2" stroke-width="4"/>
+          <!-- Roof: Royal Blue #1976D2 -->
+          <polygon points="50,22 14,48 86,48" fill="#1976D2"/>
+          <!-- Door: Warm Yellow #FFC107 with Blue frame -->
+          <path d="M42 82 V58 H58 V82 Z" fill="#FFC107" stroke="#1976D2" stroke-width="3"/>
+          <!-- Star: Warm Yellow #FFC107 -->
+          <polygon points="50,6 54,16 65,16 56,23 60,33 50,26 40,33 44,23 35,16 46,16" fill="#FFC107" stroke="#FFA000" stroke-width="1.5"/>
+          <!-- Playful Educational Blocks -->
+          <rect x="10" y="68" width="13" height="13" rx="3" fill="#2196F3"/>
+          <text x="16.5" y="78" font-size="9" font-weight="900" fill="#fff" text-anchor="middle">L</text>
+          <rect x="77" y="68" width="13" height="13" rx="3" fill="#4CAF50"/>
+          <text x="83.5" y="78" font-size="9" font-weight="900" fill="#fff" text-anchor="middle">S</text>
+        </svg>
+
+        <div class="brand-text">
+          <div class="brand-name">
+            <span class="brand-little">Little Star</span>
+            <span class="brand-playhouse"><span class="c-green">P</span><span class="c-green">l</span><span class="c-blue">a</span><span class="c-blue">y</span><span class="c-red">h</span><span class="c-lgreen">o</span><span class="c-lgreen">u</span><span class="c-orange">s</span><span class="c-orange">e</span></span>
+          </div>
+          <small class="brand-tagline" data-en="A Safe Place for Little Stars to Shine" data-ne="साना ताराहरू चम्किने सुरक्षित स्थान">A Safe Place for Little Stars to Shine</small>
+        </div>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">☰</button>
+
+      <nav id="nav">
+        <a href="#home" data-en="Home" data-ne="गृहपृष्ठ">Home</a>
+        <a href="#about" data-en="About Us" data-ne="हाम्रो बारेमा">About Us</a>
+        <a href="#programs" data-en="Programs" data-ne="कार्यक्रमहरू">Programs</a>
+        <a href="#facilities" data-en="Why Us & Safety" data-ne="सुविधा र सुरक्षा">Why Us & Safety</a>
+        <a href="#notices" data-en="Notices" data-ne="सूचना पाटी">Notices</a>
+        <a href="#gallery" data-en="Gallery" data-ne="ग्यालरी">Gallery</a>
+        <a href="#admission" data-en="Admission" data-ne="भर्ना">Admission</a>
+        <a href="#contact" data-en="Contact" data-ne="सम्पर्क">Contact</a>
+        <button id="languageToggle" class="language" type="button" aria-label="Change language">नेपाली</button>
+      </nav>
+    </div>
   </header>
 
   <main>
+    <!-- Hero Section -->
     <section class="hero" id="home">
-      <div class="hero-copy">
-        <span class="eyebrow" data-en="PLAY • LEARN • GROW" data-ne="खेलौँ • सिकौँ • बढौँ">PLAY • LEARN • GROW</span>
-        <h1 data-en="A bright beginning for every little star." data-ne="हरेक साना ताराको उज्यालो सुरुवात।">A bright beginning for every little star.</h1>
-        <p data-en="A caring, safe and joyful place where children explore, build confidence and learn through play." data-ne="बालबालिकाले खेल्दै सिक्ने, आत्मविश्वास बढाउने र रमाइलो वातावरणमा हुर्कने सुरक्षित तथा मायालु स्थान।">A caring, safe and joyful place where children explore, build confidence and learn through play.</p>
-        <div class="hero-actions"><a class="btn primary" href="#admission" data-en="Enquire About Admission" data-ne="भर्नाबारे बुझ्नुहोस्">Enquire About Admission</a><a class="btn secondary" href="#about" data-en="Discover Our Playhouse" data-ne="हाम्रो प्लेहाउस चिनौँ">Discover Our Playhouse</a></div>
-        <div class="trust"><span>✓ <span data-en="Child-friendly environment" data-ne="बालमैत्री वातावरण">Child-friendly environment</span></span><span>✓ <span data-en="Learning through play" data-ne="खेल्दै सिक्ने अवसर">Learning through play</span></span></div>
-      </div>
-      <div class="hero-art" aria-label="Playful illustration of a house and stars">
-        <div class="sun">☀</div><div class="star s1">★</div><div class="star s2">✦</div>
-        <div class="rainbow"></div><div class="house"><div class="roof"></div><div class="house-body"><div class="window"></div><div class="door"></div><div class="house-star">★</div></div></div>
-        <div class="cloud c1"></div><div class="cloud c2"></div>
-        <div class="grass"></div>
+      <div class="hero-container">
+        <div class="hero-copy">
+          <span class="eyebrow" data-en="PLAY • LEARN • GROW • SHINE" data-ne="खेलौँ • सिकौँ • बढौँ • चम्कौँ">PLAY • LEARN • GROW • SHINE</span>
+          <h1 data-en="A bright, loving beginning for every little star." data-ne="हरेक साना ताराको लागि मायालु तथा उज्यालो सुरुवात।">A bright, loving beginning for every little star.</h1>
+          <p class="hero-subtitle" data-en="At Little Star Playhouse in Janakpurdham, we provide a clean, safe, and joyful environment where toddlers explore, build lifelong confidence, and learn through play." data-ne="जनकपुरधामस्थित लिटल स्टार प्लेहाउसमा हामी बालबालिकालाई खेल्दै सिक्ने, नयाँ कुरा पत्ता लगाउने र आत्मविश्वासका साथ हुर्कने सुरक्षित, सफा तथा मायालु वातावरण प्रदान गर्दछौँ।">At Little Star Playhouse in Janakpurdham, we provide a clean, safe, and joyful environment where toddlers explore, build lifelong confidence, and learn through play.</p>
+          
+          <div class="hero-badge-strip">
+            <span class="tag-pill" data-en="🎈 Daycare & Playzone" data-ne="🎈 डे केयर र प्ले जोन">🎈 Daycare & Playzone</span>
+            <span class="tag-pill" data-en="🎵 Playing, Singing, Dancing" data-ne="🎵 खेलकुद, गीत र नृत्य">🎵 Playing, Singing, Dancing</span>
+            <span class="tag-pill" data-en="📍 Janakpurdham-4" data-ne="📍 जनकपुरधाम–४">📍 Janakpurdham-4</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#admission" data-en="Enquire for Admission" data-ne="भर्नाको लागि सोधपुछ">Enquire for Admission</a>
+            <a class="btn whatsapp-btn" href="https://wa.me/9779709142797" target="_blank" rel="noopener" data-en="Chat on WhatsApp" data-ne="ह्वाट्सएपमा कुरा गर्नुहोस्">Chat on WhatsApp</a>
+            <a class="btn secondary" href="#programs" data-en="View Programs" data-ne="कार्यक्रमहरू हेर्नुहोस्">View Programs</a>
+          </div>
+
+          <div class="trust">
+            <span>✓ <span data-en="Safe & Child-Friendly Campus" data-ne="सुरक्षित तथा बालमैत्री वातावरण">Safe & Child-Friendly Campus</span></span>
+            <span>✓ <span data-en="Experienced & Loving Teachers" data-ne="मायालु तथा अनुभवी शिक्षकहरू">Experienced & Loving Teachers</span></span>
+            <span>✓ <span data-en="Low Student-Teacher Ratio" data-ne="प्रत्येक नानीलाई विशेष ध्यान">Low Student-Teacher Ratio</span></span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Playful illustration of Little Star Playhouse">
+          <div class="sun">☀</div>
+          <div class="star s1">★</div>
+          <div class="star s2">✦</div>
+          <div class="star s3">★</div>
+          <div class="rainbow"></div>
+          <div class="house">
+            <div class="roof"></div>
+            <div class="house-body">
+              <div class="window"></div>
+              <div class="door"></div>
+              <div class="house-star">★</div>
+            </div>
+          </div>
+          <div class="cloud c1"></div>
+          <div class="cloud c2"></div>
+          <div class="grass"></div>
+          <div class="hero-art-badge">
+            <strong>Ages 2–5 Years</strong>
+            <small>Preschool & Daycare</small>
+          </div>
+        </div>
       </div>
     </section>
 
+    <!-- Quick Facts Strip -->
     <section class="quickfacts">
-      <div><span class="fact-icon yellow">★</span><strong data-en="Ages 2–5" data-ne="२–५ वर्ष">Ages 2–5</strong><small data-en="Early childhood focus" data-ne="प्रारम्भिक बालविकासमा केन्द्रित">Early childhood focus</small></div>
-      <div><span class="fact-icon blue">♥</span><strong data-en="Care & Safety" data-ne="हेरचाह र सुरक्षा">Care & Safety</strong><small data-en="A welcoming space" data-ne="आत्मीय वातावरण">A welcoming space</small></div>
-      <div><span class="fact-icon green">✎</span><strong data-en="Creative Learning" data-ne="सिर्जनात्मक सिकाइ">Creative Learning</strong><small data-en="Explore every day" data-ne="हरेक दिन नयाँ खोज">Explore every day</small></div>
+      <div class="fact-card">
+        <span class="fact-icon yellow">★</span>
+        <div>
+          <strong data-en="Ages 2 to 5" data-ne="२ देखि ५ वर्ष">Ages 2 to 5</strong>
+          <small data-en="Early childhood care & development" data-ne="प्रारम्भिक बालविकासमा विशेष केन्द्रित">Early childhood care & development</small>
+        </div>
+      </div>
+      <div class="fact-card">
+        <span class="fact-icon blue">⏰</span>
+        <div>
+          <strong data-en="10:00 AM – 6:00 PM" data-ne="बिहान १०:०० – साँझ ६:००">10:00 AM – 6:00 PM</strong>
+          <small data-en="Flexible hours for working parents" data-ne="कामकाजी अभिभावकलाई अनुकूल समय">Flexible hours for working parents</small>
+        </div>
+      </div>
+      <div class="fact-card">
+        <span class="fact-icon green">🧸</span>
+        <div>
+          <strong data-en="Playgroup to Daycare" data-ne="प्लेग्रुपदेखि डे केयरसम्म">Playgroup to Daycare</strong>
+          <small data-en="Play zone, nursery & caring environment" data-ne="प्ले जोन, नर्सरी र मायालु हेरचाह">Play zone, nursery & caring environment</small>
+        </div>
+      </div>
+      <div class="fact-card">
+        <span class="fact-icon orange">🛡</span>
+        <div>
+          <strong data-en="Clean & Supervised" data-ne="सफा तथा सुरक्षित">Clean & Supervised</strong>
+          <small data-en="CCTV & dedicated female caretakers" data-ne="सीसीटिभी र ममतामयी सुसारेहरू">CCTV & dedicated female caretakers</small>
+        </div>
+      </div>
     </section>
 
+    <!-- About Section -->
     <section class="section about" id="about">
-      <div class="section-art"><div class="art-circle"><span>✿</span><div class="blocks"><b>L</b><b>S</b><b>P</b></div><div class="toy-star">★</div></div></div>
-      <div><span class="eyebrow" data-en="WELCOME TO OUR PLAYHOUSE" data-ne="हाम्रो प्लेहाउसमा स्वागत छ">WELCOME TO OUR PLAYHOUSE</span>
-        <h2 data-en="Little steps. Big discoveries." data-ne="साना पाइला, ठूला खोज।">Little steps. Big discoveries.</h2>
-        <p data-en="At Little Star Playhouse, we believe every child deserves a safe place to explore, express themselves and shine. Our activities encourage curiosity, creativity, social skills and independence." data-ne="लिटल स्टार प्लेहाउसमा प्रत्येक बालबालिकाले सुरक्षित वातावरणमा खोज, अभिव्यक्ति र प्रतिभा देखाउने अवसर पाउनुपर्छ भन्ने हाम्रो विश्वास छ। हाम्रा गतिविधिले जिज्ञासा, सिर्जनशीलता, सामाजिक सीप र आत्मनिर्भरता बढाउन सहयोग गर्छन्।">At Little Star Playhouse, we believe every child deserves a safe place to explore, express themselves and shine. Our activities encourage curiosity, creativity, social skills and independence.</p>
-        <ul class="checklist"><li data-en="Caring and child-friendly environment" data-ne="मायालु तथा बालमैत्री वातावरण">Caring and child-friendly environment</li><li data-en="Stories, drawing, music and creative play" data-ne="कथा, चित्रकला, सङ्गीत र सिर्जनात्मक खेल">Stories, drawing, music and creative play</li><li data-en="Regular communication with parents" data-ne="अभिभावकसँग नियमित संवाद">Regular communication with parents</li></ul>
+      <div class="section-art">
+        <div class="art-circle">
+          <span class="art-star">★</span>
+          <div class="blocks">
+            <b>L</b>
+            <b>S</b>
+            <b>P</b>
+          </div>
+          <div class="toy-star">✿</div>
+        </div>
+      </div>
+      <div>
+        <span class="eyebrow" data-en="WELCOME TO OUR PLAYHOUSE" data-ne="हाम्रो प्लेहाउसमा स्वागत छ">WELCOME TO OUR PLAYHOUSE</span>
+        <h2 data-en="Little steps today. Bright discoveries tomorrow." data-ne="साना पाइला आज, उज्यालो भविष्य भोलि।">Little steps today. Bright discoveries tomorrow.</h2>
+        <p data-en="At Little Star Playhouse, we believe every child is unique and deserves an affectionate, pressure-free environment to flourish. Located in the heart of Janakpurdham, our playhouse blends early Montessori and ECCD principles with warm parental care." data-ne="लिटल स्टार प्लेहाउसमा प्रत्येक बालबालिका विशेष हुन्छन् र उनीहरूले डर वा दबाबरहित मायालु वातावरणमा सिक्ने अवसर पाउनुपर्छ भन्ने हाम्रो दृढ विश्वास छ। जनकपुरधामको केन्द्रमा रहेको हाम्रो प्लेहाउसले मन्टेश्वरी र ECCD अवधारणासँगै आत्मीय पारिवारिक हेरचाह प्रदान गर्दछ।">At Little Star Playhouse, we believe every child is unique and deserves an affectionate, pressure-free environment to flourish. Located in the heart of Janakpurdham, our playhouse blends early Montessori and ECCD principles with warm parental care.</p>
+        
+        <ul class="checklist">
+          <li><strong data-en="Holistic Early Growth:" data-ne="सर्वाङ्गीण प्रारम्भिक विकास:">Holistic Early Growth:</strong> <span data-en="Focusing on language, motor coordination, habits, and emotional well-being." data-ne="भाषा, शारीरिक सन्तुलन, राम्रा बानी र भावनात्मक विकासमा ध्यान।">Focusing on language, motor coordination, habits, and emotional well-being.</span></li>
+          <li><strong data-en="Joyful Activities Every Day:" data-ne="दैनिक रमाइला क्रियाकलाप:">Joyful Activities Every Day:</strong> <span data-en="Singing rhymes, creative drawing, interactive storytelling, and dancing." data-ne="बालगीत, चित्रकला, कथा वाचन, अभिनय र नृत्य।">Singing rhymes, creative drawing, interactive storytelling, and dancing.</span></li>
+          <li><strong data-en="Open Communication with Parents:" data-ne="अभिभावकसँग निरन्तर संवाद:">Open Communication with Parents:</strong> <span data-en="Regular photo updates and friendly progress conversations via WhatsApp." data-ne="व्हाट्सएपमार्फत नियमित फोटो र बालबालिकाको प्रगतिबारे खुला छलफल।">Regular photo updates and friendly progress conversations via WhatsApp.</span></li>
+        </ul>
       </div>
     </section>
 
+    <!-- Programs & Services Section -->
     <section class="section programs" id="programs">
-      <div class="section-heading"><span class="eyebrow" data-en="LEARN THROUGH PLAY" data-ne="खेल्दै सिकौँ">LEARN THROUGH PLAY</span><h2 data-en="A happy place to grow" data-ne="हुर्कन र सिक्न रमाइलो ठाउँ">A happy place to grow</h2><p data-en="Every day brings opportunities to play, discover and connect." data-ne="हरेक दिन खेल्ने, नयाँ कुरा पत्ता लगाउने र साथी बन्ने अवसर।">Every day brings opportunities to play, discover and connect.</p></div>
-      <div class="cards">
-        <article class="program-card"><div class="emoji yellow-bg">🧸</div><h3 data-en="Playgroup" data-ne="प्लेग्रुप">Playgroup</h3><p data-en="Gentle first steps into routines, friendship, movement and sensory play." data-ne="दैनिक बानी, मित्रता, शारीरिक गतिविधि र इन्द्रियसम्बन्धी खेलबाट सिकाइको सुरुवात।">Gentle first steps into routines, friendship, movement and sensory play.</p></article>
-        <article class="program-card"><div class="emoji blue-bg">📚</div><h3 data-en="Nursery Readiness" data-ne="नर्सरी तयारी">Nursery Readiness</h3><p data-en="Early language, numbers, stories, songs and hands-on activities." data-ne="भाषा, अङ्क, कथा, गीत र व्यवहारिक गतिविधिमार्फत प्रारम्भिक सिकाइ।">Early language, numbers, stories, songs and hands-on activities.</p></article>
-        <article class="program-card"><div class="emoji green-bg">🎨</div><h3 data-en="Creative Play" data-ne="सिर्जनात्मक खेल">Creative Play</h3><p data-en="Drawing, music, building, pretend play and opportunities to show talents." data-ne="चित्रकला, सङ्गीत, निर्माण खेल, अभिनय र प्रतिभा देखाउने अवसर।">Drawing, music, building, pretend play and opportunities to show talents.</p></article>
+      <div class="section-heading">
+        <span class="eyebrow" data-en="OUR COMPREHENSIVE SERVICES" data-ne="हाम्रा मुख्य सेवा तथा कार्यक्रमहरू">OUR COMPREHENSIVE SERVICES</span>
+        <h2 data-en="Programmes Designed for Every Milestone" data-ne="हरेक उमेर समूहका लागि उपयुक्त कार्यक्रमहरू">Programmes Designed for Every Milestone</h2>
+        <p data-en="From gentle first steps away from home to structured preschool learning and full-day daycare support." data-ne="घरबाट पहिलो पटक बाहिर निस्कने नानीबाबुदेखि विद्यालय तयारी र पूरा दिनको डे केयरसम्म।">From gentle first steps away from home to structured preschool learning and full-day daycare support.</p>
+      </div>
+
+      <div class="cards programs-grid">
+        <!-- Playgroup -->
+        <article class="program-card">
+          <div class="emoji yellow-bg">🧸</div>
+          <div class="program-age" data-en="Age: 2 – 3 Years" data-ne="उमेर: २ देखि ३ वर्ष">Age: 2 – 3 Years</div>
+          <h3 data-en="Playgroup" data-ne="प्लेग्रुप">Playgroup</h3>
+          <p data-en="Gentle transition into daily routines, making friends, sensory exploration, and developing early communication through guided play." data-ne="दैनिक बानीको सुरुवात, साथी बनाउने कला, इन्द्रिय विकास र रमाइलो खेलमार्फत प्रारम्भिक सिकाइ।">Gentle transition into daily routines, making friends, sensory exploration, and developing early communication through guided play.</p>
+          <ul class="program-bullets">
+            <li data-en="Social interaction & sharing" data-ne="सामाजिकीकरण तथा बाँड्ने बानी">Social interaction & sharing</li>
+            <li data-en="Sensory play & fine motor skills" data-ne="शारीरिक गतिविधि र सन्तुलन">Sensory play & fine motor skills</li>
+            <li data-en="Toilet habits & gentle routine" data-ne="दैनिक बानी र सहज हेरचाह">Toilet habits & gentle routine</li>
+          </ul>
+        </article>
+
+        <!-- Nursery Readiness -->
+        <article class="program-card">
+          <div class="emoji blue-bg">📚</div>
+          <div class="program-age" data-en="Age: 3 – 4 Years" data-ne="उमेर: ३ देखि ४ वर्ष">Age: 3 – 4 Years</div>
+          <h3 data-en="Nursery Readiness" data-ne="नर्सरी तयारी">Nursery Readiness</h3>
+          <p data-en="Building strong foundations in early phonics, numbers, shapes, colours, curiosity, and pencil grip through joyful activities." data-ne="अक्षर, अङ्क, आकार, रङ र लेखाइको आधारभूत तयारी रमाइला खेल र अभ्यासबाट।">Building strong foundations in early phonics, numbers, shapes, colours, curiosity, and pencil grip through joyful activities.</p>
+          <ul class="program-bullets">
+            <li data-en="Early English & Nepali literacy" data-ne="अङ्ग्रेजी र नेपाली वर्णमालाको परिचय">Early English & Nepali literacy</li>
+            <li data-en="Numbers, counting & problem-solving" data-ne="अङ्क र सामान्य गणना">Numbers, counting & problem-solving</li>
+            <li data-en="Rhymes, storytelling & stage confidence" data-ne="गीत, कथा र बोल्ने आत्मविश्वास">Rhymes, storytelling & stage confidence</li>
+          </ul>
+        </article>
+
+        <!-- Daycare Facility -->
+        <article class="program-card highlight-card">
+          <div class="emoji green-bg">🏡</div>
+          <div class="program-age" data-en="Time: 10:00 AM – 6:00 PM" data-ne="समय: बिहान १०:०० – साँझ ६:००">Time: 10:00 AM – 6:00 PM</div>
+          <h3 data-en="Daycare & Child Care" data-ne="डे केयर सुविधा">Daycare & Child Care</h3>
+          <p data-en="A safe home away from home for working parents. Dedicated caretakers ensure proper meals, hygiene, supervised naps, and warm attention." data-ne="कामकाजी अभिभावकका लागि भरपर्दो दोस्रो घर। पोषणयुक्त खाजा, सरसफाइ, सुत्ने समय र ममतामयी रेखदेख।">A safe home away from home for working parents. Dedicated caretakers ensure proper meals, hygiene, supervised naps, and warm attention.</p>
+          <ul class="program-bullets">
+            <li data-en="Safe, quiet rest & nap facilities" data-ne="शान्त र सफा आराम गर्ने कोठा">Safe, quiet rest & nap facilities</li>
+            <li data-en="Assistance with healthy snack & feeding" data-ne="खाजा खुवाउने र हेरचाह गर्ने सुविधा">Assistance with healthy snack & feeding</li>
+            <li data-en="Flexible full-day & half-day options" data-ne="पूरा दिन वा आधा दिनको विकल्प">Flexible full-day & half-day options</li>
+          </ul>
+        </article>
+
+        <!-- Play Zone & Creative Arts -->
+        <article class="program-card">
+          <div class="emoji orange-bg">🎨</div>
+          <div class="program-age" data-en="All Enrolled Stars" data-ne="सबै नानीहरूका लागि">All Enrolled Stars</div>
+          <h3 data-en="Play Zone & Creative Arts" data-ne="प्ले जोन र सिर्जनात्मक खेल">Play Zone & Creative Arts</h3>
+          <p data-en="Indoor soft play, colourful educational blocks, music, dance, and creative arts that let children freely express their talents." data-ne="इनडोर सफ्ट खेलौना, ब्लकहरू, सङ्गीत, चित्रकला र नृत्य जसले प्रतिभा उजागर गर्न सघाउँछ।">Indoor soft play, colourful educational blocks, music, dance, and creative arts that let children freely express their talents.</p>
+          <ul class="program-bullets">
+            <li data-en="Indoor soft play equipment" data-ne="बालमैत्री सुरक्षित खेलौना">Indoor soft play equipment</li>
+            <li data-en="Music, dancing & cultural celebrations" data-ne="सङ्गीत, नृत्य तथा पर्व उत्सवहरू">Music, dancing & cultural celebrations</li>
+            <li data-en="Colouring, crafting & block building" data-ne="चित्रकला, हस्तकला र ब्लक्स">Colouring, crafting & block building</li>
+          </ul>
+        </article>
       </div>
     </section>
 
-    <section class="admission" id="admission"><div><span class="eyebrow" data-en="ADMISSIONS OPEN" data-ne="भर्ना खुला छ">ADMISSIONS OPEN</span><h2 data-en="Your child's next happy chapter starts here." data-ne="तपाईंको नानीको खुसीको नयाँ अध्याय यहाँबाट सुरु हुन्छ।">Your child's next happy chapter starts here.</h2><p data-en="Contact us to discuss your child's age, schedule and available programs. Please confirm current fees and availability directly with the school." data-ne="तपाईंको नानीको उमेर, समयतालिका र उपलब्ध कार्यक्रमबारे बुझ्न हामीलाई सम्पर्क गर्नुहोस्। हालको शुल्क र उपलब्धता विद्यालयसँग प्रत्यक्ष पुष्टि गर्नुहोस्।">Contact us to discuss your child's age, schedule and available programs. Please confirm current fees and availability directly with the school.</p></div><a class="btn white" href="https://wa.me/9779709142797" target="_blank" rel="noopener" data-en="Message Us on WhatsApp" data-ne="WhatsApp मा सन्देश पठाउनुहोस्">Message Us on WhatsApp</a></section>
+    <!-- Parent Confidence, Safety & Facilities Section -->
+    <section class="section facilities-section" id="facilities">
+      <div class="section-heading">
+        <span class="eyebrow" data-en="SAFETY, HYGIENE & TRUST" data-ne="सुरक्षा, सरसफाइ र विश्वास">SAFETY, HYGIENE & TRUST</span>
+        <h2 data-en="Why Janakpur Parents Trust Little Star" data-ne="जनकपुरका अभिभावकको विश्वास जित्ने कारणहरू">Why Janakpur Parents Trust Little Star</h2>
+        <p data-en="We know placing your child in someone else's care takes trust. Here is how we ensure their safety, joy, and healthy development every single day." data-ne="आफ्नो नानीको जिम्मा दिन विश्वास चाहिन्छ। हामी हरेक दिन उनीहरूको सुरक्षा, सरसफाइ र विकास कसरी सुनिश्चित गर्छौँ, हेर्नुहोस्।">We know placing your child in someone else's care takes trust. Here is how we ensure their safety, joy, and healthy development every single day.</p>
+      </div>
 
+      <div class="facilities-grid">
+        <div class="facility-item">
+          <div class="facility-icon">🛡️</div>
+          <h4 data-en="Secure & Child-Safe Campus" data-ne="सुरक्षित बालमैत्री परिसर">Secure & Child-Safe Campus</h4>
+          <p data-en="Controlled gate entry, round-the-clock supervision, cushioned flooring, rounded furniture, and continuous monitoring." data-ne="नियन्त्रित गेट, निरन्तर निगरानी, चोट नलाग्ने नरम भुइँ र बालबालिका अनुकूल फर्निचर।">Controlled gate entry, round-the-clock supervision, cushioned flooring, rounded furniture, and continuous monitoring.</p>
+        </div>
+
+        <div class="facility-item">
+          <div class="facility-icon">🧼</div>
+          <h4 data-en="High Hygiene Standards" data-ne="दैनिक सरसफाइ र स्वच्छता">High Hygiene Standards</h4>
+          <p data-en="Daily sanitised toys, child-sized clean washrooms, filtered pure drinking water, and trained hand-washing habits." data-ne="दैनिक सफा गरिने खेलौना, साना बालबालिका अनुकूल सफा शौचालय र शुद्ध पिउने पानी।">Daily sanitised toys, child-sized clean washrooms, filtered pure drinking water, and trained hand-washing habits.</p>
+        </div>
+
+        <div class="facility-item">
+          <div class="facility-icon">👩‍🏫</div>
+          <h4 data-en="Trained & Affectionate Staff" data-ne="मायालु तथा तालिमप्राप्त शिक्षक">Trained & Affectionate Staff</h4>
+          <p data-en="Patient educators with Montessori/ECCD orientation who treat every little child with warmth, love, and respect." data-ne="मन्टेश्वरी तथा बालविकास तालिमप्राप्त शिक्षकहरू जसले नानीहरूलाई आफ्नै सन्तान झैँ माया गर्छन्।">Patient educators with Montessori/ECCD orientation who treat every little child with warmth, love, and respect.</p>
+        </div>
+
+        <div class="facility-item">
+          <div class="facility-icon">🛏️</div>
+          <h4 data-en="Quiet Nap & Resting Area" data-ne="आराम र सुत्ने शान्त कोठा">Quiet Nap & Resting Area</h4>
+          <p data-en="Dedicated, sanitised beds and peaceful environment for children needing an afternoon nap during daycare hours." data-ne="दिउँसो डे केयरमा आराम गर्नका लागि सफा, शान्त र सुरक्षित सुत्ने स्थान।">Dedicated, sanitised beds and peaceful environment for children needing an afternoon nap during daycare hours.</p>
+        </div>
+
+        <div class="facility-item">
+          <div class="facility-icon">📱</div>
+          <h4 data-en="Active Parent Communication" data-ne="अभिभावकसँग प्रत्यक्ष सम्पर्क">Active Parent Communication</h4>
+          <p data-en="Direct WhatsApp access, daily activity updates, dietary check-ins, and scheduled parent meetings." data-ne="ह्वाट्सएपमार्फत सिधा संवाद, दैनिक गतिविधि तथा खानपानबारे नियमित जानकारी।">Direct WhatsApp access, daily activity updates, dietary check-ins, and scheduled parent meetings.</p>
+        </div>
+
+        <div class="facility-item">
+          <div class="facility-icon">🩺</div>
+          <h4 data-en="First Aid & Health Preparedness" data-ne="प्राथमिक उपचार र स्वास्थ्य सतर्कता">First Aid & Health Preparedness</h4>
+          <p data-en="Well-equipped first aid kit, strict protocols for minor illness, and rapid coordination with local health clinics." data-ne="तत्काल प्राथमिक उपचारको व्यवस्था र सामान्य अस्वस्थतामा अभिभावकसँग तुरुन्त समन्वय।">Well-equipped first aid kit, strict protocols for minor illness, and rapid coordination with local health clinics.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notices & Announcements Section -->
+    <section class="section notices-section" id="notices">
+      <div class="section-heading">
+        <span class="eyebrow" data-en="OFFICIAL SCHOOL UPDATES" data-ne="विद्यालयका आधिकारिक सूचनाहरू">OFFICIAL SCHOOL UPDATES</span>
+        <h2 data-en="School Notice Board" data-ne="सूचना पाटी">School Notice Board</h2>
+        <p data-en="Stay informed about upcoming admission campaigns, special offers, and recruitment vacancies." data-ne="भर्ना अभियान, विशेष छुट, बिदा तथा कर्मचारी आवश्यकतासम्बन्धी जानकारीहरू।">Stay informed about upcoming admission campaigns, special offers, and recruitment vacancies.</p>
+      </div>
+
+      <div class="notice-cards">
+        <!-- Notice 1: Admission Open 2083 -->
+        <article class="notice-card featured">
+          <div class="notice-badge" data-en="🎉 Admission Open 2083" data-ne="🎉 नयाँ भर्ना खुला २०८३">🎉 Admission Open 2083</div>
+          <div class="notice-body">
+            <span class="notice-date" data-en="Nepali New Year 2083 Special Offer (Limited Seats)" data-ne="नेपाली नयाँ वर्ष २०८३ विशेष अफर (सीमित सिट)">Nepali New Year 2083 Special Offer (Limited Seats)</span>
+            <h3 data-en="New Beginnings: Enroll in Playgroup, Nursery & Daycare" data-ne="नयाँ सुरुवात: प्लेग्रुप, नर्सरी तथा डे केयरमा नयाँ भर्ना">New Beginnings: Enroll in Playgroup, Nursery & Daycare</h3>
+            <p data-en="Celebrate Nepali New Year 2083 with Little Star Playhouse! We are welcoming applications for Play Group, Nursery, Montessori Readiness, and Day Care (10:00 AM – 6:00 PM). Enquire early to secure limited promotional seats." data-ne="लिटल स्टार प्लेहाउसमा नयाँ वर्ष २०८३ को अवसरमा विशेष छुटसहित नयाँ भर्ना सुरु भएको छ। प्ले ग्रुप, नर्सरी, मन्टेश्वरी र डे केयर (१०:०० देखि ६:०० सम्म) का लागि सिट सीमित छन्।">Celebrate Nepali New Year 2083 with Little Star Playhouse! We are welcoming applications for Play Group, Nursery, Montessori Readiness, and Day Care (10:00 AM – 6:00 PM). Enquire early to secure limited promotional seats.</p>
+            <div class="notice-actions">
+              <a class="btn primary" href="#admission" data-en="Book Visit & Enquire" data-ne="भ्रमण तथा सोधपुछ">Book Visit & Enquire</a>
+              <button class="btn secondary view-poster-btn" type="button" data-img="images/nepali-new-year-2083-admission.jpg" data-caption-en="Happy Nepali New Year 2083 — Admission Open Special Offer" data-caption-ne="नेपाली नयाँ वर्ष २०८३ — भर्ना खुला विशेष छुट" data-en="View Notice Poster" data-ne="पोस्टर हेर्नुहोस्">View Notice Poster</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Notice 2: We Are Hiring -->
+        <article class="notice-card">
+          <div class="notice-badge hiring" data-en="📢 Career Opportunity" data-ne="📢 शिक्षक आवश्यकता">📢 Career Opportunity</div>
+          <div class="notice-body">
+            <span class="notice-date" data-en="Apply by: 2082 Chaitra 30 • Janakpurdham" data-ne="अन्तिम मिति: २०८२ चैत्र ३० • जनकपुरधाम">Apply by: 2082 Chaitra 30 • Janakpurdham</span>
+            <h3 data-en="Vacancy: Preschool / Daycare / Montessori Teacher" data-ne="विज्ञापन: प्रि-स्कुल / डे-केयर / मन्टेश्वरी शिक्षक">Vacancy: Preschool / Daycare / Montessori Teacher</h3>
+            <p data-en="We are seeking loving, energetic, and creative teachers (+2 Pass minimum, Bachelor preferred) passionate about working with young children (Ages 2–5). Montessori/ECCD training is an advantage. Competitive negotiable salary." data-ne="२ देखि ५ वर्षका बालबालिकालाई माया र ऊर्जाका साथ सिकाउन सक्ने (+२ उत्तीर्ण वा स्नातक) शिक्षक चाहिएको छ। मन्टेश्वरी/ECCD तालिमप्राप्तलाई प्राथमिकता। तलब: आपसी समझदारीमा।">We are seeking loving, energetic, and creative teachers (+2 Pass minimum, Bachelor preferred) passionate about working with young children (Ages 2–5). Montessori/ECCD training is an advantage. Competitive negotiable salary.</p>
+            <div class="notice-actions">
+              <a class="btn primary" href="mailto:littlestarplayhouse2026@gmail.com?subject=Teacher%20Application%20-%20Little%20Star%20Playhouse" data-en="Apply via Email" data-ne="इमेलबाट आवेदन">Apply via Email</a>
+              <button class="btn secondary view-poster-btn" type="button" data-img="images/we-are-hiring-teacher.jpg" data-caption-en="Teacher Recruitment Notice — We Are Hiring!" data-caption-ne="शिक्षक आवश्यकता विज्ञापन — सूचना पोस्टर" data-en="View Job Poster" data-ne="विज्ञापन हेर्नुहोस्">View Job Poster</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Historical / Fee Disclaimer Note -->
+      <div class="notice-disclaimer">
+        <span class="disclaimer-icon">ℹ️</span>
+        <span data-en="Note for Parents: Specific promotional fees, discounts, and age cut-offs are time-sensitive and subject to seat availability. Please verify current tuition and admission terms directly with the school administration." data-ne="अभिभावकका लागि जानकारी: विशेष छुट तथा भर्ना शुल्क समयसापेक्ष हुने भएकाले हालको शुल्क र सिट उपलब्धता विद्यालय प्रशासनसँग सिधा सम्पर्क गरी यकिन गर्नुहुन अनुरोध छ।">Note for Parents: Specific promotional fees, discounts, and age cut-offs are time-sensitive and subject to seat availability. Please verify current tuition and admission terms directly with the school administration.</span>
+      </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading">
+        <span class="eyebrow" data-en="MOMENTS & ANNOUNCEMENTS" data-ne="तस्वीर तथा गतिविधिहरू">MOMENTS & ANNOUNCEMENTS</span>
+        <h2 data-en="Our Photo Gallery" data-ne="हाम्रो फोटो ग्यालरी">Our Photo Gallery</h2>
+        <p data-en="A glimpse into life, celebration posters, and announcements from Little Star Playhouse. Click any photo to enlarge." data-ne="लिटल स्टार प्लेहाउसका गतिविधि, पोस्टर तथा रमाइला क्षणहरू। ठूलो बनाएर हेर्न फोटोमा थिच्नुहोस्।">A glimpse into life, celebration posters, and announcements from Little Star Playhouse. Click any photo to enlarge.</p>
+      </div>
+
+      <!-- Local Folder Information Note -->
+      <div class="gallery-local-note">
+        <span class="note-icon">📁</span>
+        <div class="note-text">
+          <strong data-en="Connected Local Folder:" data-ne="जडान गरिएको स्थानीय फोल्डर:">Connected Local Folder:</strong>
+          <code>little-star-playhouse/images</code>
+          <p data-en="Photos placed in your project's local images folder appear here. You can also preview photos live from your computer using the button below." data-ne="यस वेबसाइटको images फोल्डरमा राखिएका फोटोहरू यहाँ प्रदर्शित हुन्छन्। तलको बटनबाट कम्प्युटरका नयाँ फोटोहरू तुरुन्त हेर्न सकिन्छ।">Photos placed in your project's local images folder appear here. You can also preview photos live from your computer using the button below.</p>
+        </div>
+        <div class="note-action">
+          <label for="localPhotoInput" class="btn secondary preview-upload-btn" data-en="📷 Preview Local Photo" data-ne="📷 कम्प्युटरबाट फोटो हेर्नुहोस्">📷 Preview Local Photo</label>
+          <input type="file" id="localPhotoInput" accept="image/*" multiple style="display:none">
+        </div>
+      </div>
+
+      <!-- Dynamic Gallery Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Photo 1: New Year 2083 Poster -->
+        <figure class="gallery-item" data-img="images/nepali-new-year-2083-admission.jpg" data-caption-en="Happy Nepali New Year 2083 — Admission Open Special Offer" data-caption-ne="नेपाली नयाँ वर्ष २०८३ — भर्ना खुला विशेष छुट">
+          <div class="gallery-img-wrap">
+            <img src="images/nepali-new-year-2083-admission.jpg" alt="Happy Nepali New Year 2083 Admission Open" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-zoom-icon">🔍</span>
+              <span class="gallery-overlay-text" data-en="Click to Enlarge" data-ne="ठूलो आकारमा हेर्नुहोस्">Click to Enlarge</span>
+            </div>
+          </div>
+          <figcaption>
+            <strong data-en="New Year 2083 Admission Open" data-ne="नयाँ वर्ष २०८३ भर्ना खुला">New Year 2083 Admission Open</strong>
+            <small data-en="Play Group, Nursery, Day Care & Montessori" data-ne="प्ले ग्रुप, नर्सरी, डे केयर र मन्टेश्वरी">Play Group, Nursery, Day Care & Montessori</small>
+          </figcaption>
+        </figure>
+
+        <!-- Photo 2: We Are Hiring -->
+        <figure class="gallery-item" data-img="images/we-are-hiring-teacher.jpg" data-caption-en="Teacher Recruitment Notice — We Are Hiring!" data-caption-ne="शिक्षक आवश्यकता विज्ञापन — हामी शिक्षक खोज्दैछौं!">
+          <div class="gallery-img-wrap">
+            <img src="images/we-are-hiring-teacher.jpg" alt="We Are Hiring Preschool Teacher" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-zoom-icon">🔍</span>
+              <span class="gallery-overlay-text" data-en="Click to Enlarge" data-ne="ठूलो आकारमा हेर्नुहोस्">Click to Enlarge</span>
+            </div>
+          </div>
+          <figcaption>
+            <strong data-en="Teacher Vacancy Announcement" data-ne="शिक्षक आवश्यकता विज्ञापन">Teacher Vacancy Announcement</strong>
+            <small data-en="Preschool / Daycare / Montessori Teacher" data-ne="प्रि-स्कुल / डे-केयर / मन्टेश्वरी शिक्षक">Preschool / Daycare / Montessori Teacher</small>
+          </figcaption>
+        </figure>
+
+        <!-- Photo 3: Little Star Poster -->
+        <figure class="gallery-item" data-img="images/playhouse-admission-poster.jpg" data-caption-en="New Year, New Beginnings — A Safe Place for Little Stars to Shine" data-caption-ne="नयाँ वर्ष, नयाँ सुरुवात — साना ताराहरू चम्किने सुरक्षित स्थान">
+          <div class="gallery-img-wrap">
+            <img src="images/playhouse-admission-poster.jpg" alt="Little Star Playhouse New Beginnings Poster" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-zoom-icon">🔍</span>
+              <span class="gallery-overlay-text" data-en="Click to Enlarge" data-ne="ठूलो आकारमा हेर्नुहोस्">Click to Enlarge</span>
+            </div>
+          </div>
+          <figcaption>
+            <strong data-en="A Safe Place for Little Stars to Shine" data-ne="साना ताराहरू चम्किने सुरक्षित स्थान">A Safe Place for Little Stars to Shine</strong>
+            <small data-en="Playful learning in Janakpurdham" data-ne="जनकपुरधाममा रमाइलो सिकाइ">Playful learning in Janakpurdham</small>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Admission Enquiry Form Section -->
+    <section class="section admission-section" id="admission">
+      <div class="admission-wrapper">
+        <div class="admission-info">
+          <span class="eyebrow" data-en="JOIN OUR LITTLE STAR FAMILY" data-ne="हाम्रो परिवारमा आबद्ध हुनुहोस्">JOIN OUR LITTLE STAR FAMILY</span>
+          <h2 data-en="Book a Visit or Enquire for Admission" data-ne="प्लेहाउस भ्रमण वा भर्ना सोधपुछ">Book a Visit or Enquire for Admission</h2>
+          <p data-en="We welcome you to visit Little Star Playhouse in Janakpurdham. Meet our caring teachers, see our safe playrooms, and discover how your child will flourish. Fill out this quick enquiry form or message us directly on WhatsApp." data-ne="जनकपुरधामस्थित लिटल स्टार प्लेहाउसमा यहाँलाई हार्दिक स्वागत छ। हाम्रा मायालु शिक्षकहरूलाई भेट्नुहोस् र सफा परिसर अवलोकन गर्नुहोस्। फाराम भर्नुहोस् वा सिधै ह्वाट्सएपमा सन्देश पठाउनुहोस्।">We welcome you to visit Little Star Playhouse in Janakpurdham. Meet our caring teachers, see our safe playrooms, and discover how your child will flourish. Fill out this quick enquiry form or message us directly on WhatsApp.</p>
+          
+          <div class="admission-contact-cards">
+            <div class="contact-pill">
+              <span class="icon">📞</span>
+              <div>
+                <small data-en="Direct Call" data-ne="सिधा फोन">Direct Call</small>
+                <strong><a href="tel:+9779709142797">9709142797</a></strong>
+              </div>
+            </div>
+            <div class="contact-pill">
+              <span class="icon">💬</span>
+              <div>
+                <small data-en="WhatsApp Helpline" data-ne="ह्वाट्सएप परामर्श">WhatsApp Helpline</small>
+                <strong><a href="https://wa.me/9779709142797" target="_blank" rel="noopener">9709142797</a></strong>
+              </div>
+            </div>
+            <div class="contact-pill">
+              <span class="icon">🕒</span>
+              <div>
+                <small data-en="School & Daycare Hours" data-ne="समय तालिका">School & Daycare Hours</small>
+                <strong data-en="10:00 AM – 6:00 PM (Sun–Fri)" data-ne="१०:०० – ६:०० (आइत–शुक्र)">10:00 AM – 6:00 PM (Sun–Fri)</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile-friendly Interactive Enquiry Form -->
+        <div class="admission-form-card">
+          <h3 data-en="Quick Admission Enquiry" data-ne="अनलाइन भर्ना सोधपुछ">Quick Admission Enquiry</h3>
+          <p class="form-desc" data-en="Submit via WhatsApp or Email. We reply promptly!" data-ne="ह्वाट्सएप वा इमेलमार्फत पठाउनुहोस्। हामी तुरुन्त जवाफ दिनेछौँ!">Submit via WhatsApp or Email. We reply promptly!</p>
+
+          <form id="enquiryForm" class="enquiry-form" onsubmit="return false;">
+            <div class="form-group">
+              <label for="parentName" data-en="Parent / Guardian Name *" data-ne="अभिभावकको नाम *">Parent / Guardian Name *</label>
+              <input type="text" id="parentName" required placeholder="e.g. Ramesh Kumar" data-placeholder-en="e.g. Ramesh Kumar" data-placeholder-ne="जस्तै: रमेश कुमार">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phoneNum" data-en="Phone / WhatsApp Number *" data-ne="फोन वा ह्वाट्सएप नम्बर *">Phone / WhatsApp Number *</label>
+                <input type="tel" id="phoneNum" required placeholder="e.g. 98XXXXXXXX" data-placeholder-en="e.g. 98XXXXXXXX" data-placeholder-ne="जस्तै: ९८XXXXXXXX">
+              </div>
+
+              <div class="form-group">
+                <label for="childName" data-en="Child's Name" data-ne="नानी/बाबुको नाम">Child's Name</label>
+                <input type="text" id="childName" placeholder="e.g. Aarav" data-placeholder-en="e.g. Aarav" data-placeholder-ne="जस्तै: आरभ">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="programSelect" data-en="Program of Interest *" data-ne="इच्छुक कार्यक्रम *">Program of Interest *</label>
+                <select id="programSelect" required>
+                  <option value="" disabled selected data-en="-- Select Program --" data-ne="-- कार्यक्रम रोज्नुहोस् --">-- Select Program --</option>
+                  <option value="Playgroup (Age 2-3)" data-en="Playgroup (Age 2–3)" data-ne="प्लेग्रुप (उमेर २–३ वर्ष)">Playgroup (Age 2–3)</option>
+                  <option value="Nursery Readiness (Age 3-4)" data-en="Nursery Readiness (Age 3–4)" data-ne="नर्सरी तयारी (उमेर ३–४ वर्ष)">Nursery Readiness (Age 3–4)</option>
+                  <option value="Daycare / Child Care" data-en="Daycare / Child Care (10 AM - 6 PM)" data-ne="डे केयर सुविधा (१० देखि ६ बजेसम्म)">Daycare / Child Care (10 AM - 6 PM)</option>
+                  <option value="Play Zone & Activities" data-en="Play Zone & Activities" data-ne="प्ले जोन तथा खेलकुद">Play Zone & Activities</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="childAge" data-en="Child's Age" data-ne="नानीको उमेर">Child's Age</label>
+                <input type="text" id="childAge" placeholder="e.g. 2.5 Years" data-placeholder-en="e.g. 2.5 Years" data-placeholder-ne="जस्तै: २.५ वर्ष">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="formMessage" data-en="Message / Preferred Visit Date" data-ne="कुनै सन्देश वा भ्रमण मिति">Message / Preferred Visit Date</label>
+              <textarea id="formMessage" rows="3" placeholder="Tell us any specific requirements or preferred time to visit..." data-placeholder-en="Tell us any specific requirements or preferred time to visit..." data-placeholder-ne="नानीबारे केही विशेष कुरा वा भ्रमण गर्न चाहेको समय..."></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="button" id="submitWhatsApp" class="btn primary-whatsapp">
+                <span class="btn-icon">💬</span> <span data-en="Send via WhatsApp" data-ne="WhatsApp मा पठाउनुहोस्">Send via WhatsApp</span>
+              </button>
+              <button type="button" id="submitEmail" class="btn secondary">
+                <span class="btn-icon">✉️</span> <span data-en="Send via Email" data-ne="इमेलबाट पठाउनुहोस्">Send via Email</span>
+              </button>
+            </div>
+            
+            <div id="formFeedback" class="form-feedback" hidden></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Map Section -->
     <section class="section contact" id="contact">
-      <div><span class="eyebrow" data-en="COME SAY HELLO" data-ne="हामीलाई भेट्नुहोस्">COME SAY HELLO</span><h2 data-en="Let's make little stars shine." data-ne="साना तारालाई चम्काऔँ।">Let's make little stars shine.</h2><p data-en="We would be happy to hear from you and welcome your family." data-ne="तपाईंको कुरा सुन्न र तपाईंको परिवारलाई स्वागत गर्न हामी खुसी हुनेछौँ।">We would be happy to hear from you and welcome your family.</p></div>
-      <div class="contact-card"><p><strong data-en="Address" data-ne="ठेगाना">Address</strong><br><span data-en="Little Star Playhouse, Ward 4, Janakpurdham, Dhanusha, Nepal (near the old Sanchaykosh Office, on the way to Kataiyachauri)." data-ne="लिटल स्टार प्लेहाउस, वडा नं. ४, जनकपुरधाम, धनुषा, नेपाल (पुरानो सञ्चयकोष कार्यालय नजिक, कटैयाचौरी जाने बाटो)।">Little Star Playhouse, Ward 4, Janakpurdham, Dhanusha, Nepal (near the old Sanchaykosh Office, on the way to Kataiyachauri).</span></p>
-        <p><strong data-en="Phone" data-ne="फोन">Phone</strong><br><a href="tel:+9779709142797">9709142797</a></p>
-        <p><strong data-en="Email" data-ne="इमेल">Email</strong><br><a href="mailto:littlestarplayhouse2026@gmail.com">littlestarplayhouse2026@gmail.com</a></p>
-        <a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Little+Star+Playhouse+Janakpurdham" target="_blank" rel="noopener" data-en="Find Us on Maps" data-ne="नक्सामा हेर्नुहोस्">Find Us on Maps</a>
+      <div class="contact-header">
+        <span class="eyebrow" data-en="COME SAY HELLO" data-ne="हामीलाई भेट्नुहोस्">COME SAY HELLO</span>
+        <h2 data-en="Visit Us in Janakpurdham" data-ne="जनकपुरधाममा हाम्रो प्लेहाउस">Visit Us in Janakpurdham</h2>
+        <p data-en="We are conveniently located in Janakpurdham Ward 4. Parents are warmly invited to inspect our premises, meet our team, and have all questions answered." data-ne="हामी जनकपुरधाम वडा नं. ४ मा अवस्थित छौँ। विद्यालय परिसर प्रत्यक्ष अवलोकन गर्न अभिभावकहरूलाई सधैँ स्वागत छ।">We are conveniently located in Janakpurdham Ward 4. Parents are warmly invited to inspect our premises, meet our team, and have all questions answered.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-detail">
+            <span class="detail-icon">📍</span>
+            <div>
+              <strong data-en="School Address" data-ne="ठेगाना">School Address</strong>
+              <p data-en="Little Star Playhouse, Ward 4, Janakpurdham, Dhanusha, Nepal (near the old Sanchaykosh Office, on the way to Kataiyachauri)." data-ne="लिटल स्टार प्लेहाउस, वडा नं. ४, जनकपुरधाम, धनुषा, नेपाल (पुरानो सञ्चयकोष कार्यालय नजिक, कटैयाचौरी जाने बाटो)।">Little Star Playhouse, Ward 4, Janakpurdham, Dhanusha, Nepal (near the old Sanchaykosh Office, on the way to Kataiyachauri).</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="detail-icon">📞</span>
+            <div>
+              <strong data-en="Phone & WhatsApp" data-ne="फोन र ह्वाट्सएप">Phone & WhatsApp</strong>
+              <p><a href="tel:+9779709142797">9709142797</a> &nbsp;•&nbsp; <a href="https://wa.me/9779709142797" target="_blank" rel="noopener">WhatsApp Chat</a></p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="detail-icon">✉️</span>
+            <div>
+              <strong data-en="Email Address" data-ne="इमेल">Email Address</strong>
+              <p><a href="mailto:littlestarplayhouse2026@gmail.com">littlestarplayhouse2026@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <span class="detail-icon">🕒</span>
+            <div>
+              <strong data-en="Hours of Operation" data-ne="खुला रहने समय">Hours of Operation</strong>
+              <p data-en="Sunday – Friday: 10:00 AM – 6:00 PM (Saturday: Closed / By Appointment)" data-ne="आइतबार – शुक्रबार: बिहान १०:०० – साँझ ६:०० (शनिबार: बिदा / अग्रिम भेट)">Sunday – Friday: 10:00 AM – 6:00 PM (Saturday: Closed / By Appointment)</p>
+            </div>
+          </div>
+
+          <div class="contact-buttons">
+            <a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Little+Star+Playhouse+Janakpurdham" target="_blank" rel="noopener" data-en="Open in Google Maps" data-ne="गुगल नक्सामा हेर्नुहोस्">Open in Google Maps</a>
+            <a class="btn secondary" href="tel:+9779709142797" data-en="Call 9709142797" data-ne="फोन गर्नुहोस्">Call 9709142797</a>
+          </div>
+        </div>
+
+        <div class="map-card">
+          <div class="map-placeholder">
+            <div class="map-art">
+              <span class="map-pin">📍</span>
+              <h4>Little Star Playhouse</h4>
+              <p>Ward 4, Janakpurdham, Nepal</p>
+              <small>Near old Sanchaykosh Office, Kataiyachauri road</small>
+            </div>
+            <a class="btn primary map-btn" href="https://www.google.com/maps/search/?api=1&query=Little+Star+Playhouse+Janakpurdham" target="_blank" rel="noopener" data-en="Get Directions on Google Maps" data-ne="नक्सामा दिशा खोज्नुहोस्">Get Directions on Google Maps</a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
-  <footer><a class="brand footer-brand" href="#home"><span class="brandmark">★</span><span><strong>Little Star Playhouse</strong><small>A Safe Place for Little Stars to Shine</small></span></a><p>© <span id="year"></span> Little Star Playhouse. <span data-en="All rights reserved." data-ne="सर्वाधिकार सुरक्षित।">All rights reserved.</span></p></footer>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-col brand-col">
+        <a class="brand footer-brand" href="#home">
+          <svg class="brand-icon" viewBox="0 0 100 100" width="40" height="40" aria-hidden="true">
+            <path d="M8 82 Q50 74 92 82 Q50 92 8 82 Z" fill="#8BC34A"/>
+            <rect x="24" y="48" width="52" height="34" rx="4" fill="#FFF8E1" stroke="#1976D2" stroke-width="4"/>
+            <polygon points="50,22 14,48 86,48" fill="#1976D2"/>
+            <path d="M42 82 V58 H58 V82 Z" fill="#FFC107" stroke="#1976D2" stroke-width="3"/>
+            <polygon points="50,6 54,16 65,16 56,23 60,33 50,26 40,33 44,23 35,16 46,16" fill="#FFC107" stroke="#FFA000" stroke-width="1.5"/>
+          </svg>
+          <div class="brand-text">
+            <div class="brand-name">
+              <span>Little Star</span>
+              <span class="brand-playhouse"><span class="c-green">P</span><span class="c-green">l</span><span class="c-blue">a</span><span class="c-blue">y</span><span class="c-red">h</span><span class="c-lgreen">o</span><span class="c-lgreen">u</span><span class="c-orange">s</span><span class="c-orange">e</span></span>
+            </div>
+          </div>
+        </a>
+        <p class="footer-tagline" data-en="A Safe Place for Little Stars to Shine" data-ne="साना ताराहरू चम्किने सुरक्षित स्थान">A Safe Place for Little Stars to Shine</p>
+        <p class="footer-summary" data-en="Daycare & Playzone in Janakpurdham. Dedicated to joyful play, nurturing care, and early childhood confidence." data-ne="जनकपुरधाममा डे केयर तथा प्ले जोन। रमाइलो खेल, आत्मीय हेरचाह र प्रारम्भिक सिकाइ।">Daycare & Playzone in Janakpurdham. Dedicated to joyful play, nurturing care, and early childhood confidence.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-en="Quick Links" data-ne="द्रुत लिङ्कहरू">Quick Links</h4>
+        <ul>
+          <li><a href="#home" data-en="Home" data-ne="गृहपृष्ठ">Home</a></li>
+          <li><a href="#about" data-en="About Us" data-ne="हाम्रो बारेमा">About Us</a></li>
+          <li><a href="#programs" data-en="Programs" data-ne="कार्यक्रमहरू">Programs</a></li>
+          <li><a href="#facilities" data-en="Why Us & Safety" data-ne="सुविधा र सुरक्षा">Why Us & Safety</a></li>
+          <li><a href="#notices" data-en="Notice Board" data-ne="सूचना पाटी">Notice Board</a></li>
+          <li><a href="#gallery" data-en="Photo Gallery" data-ne="फोटो ग्यालरी">Photo Gallery</a></li>
+          <li><a href="#admission" data-en="Admission Enquiry" data-ne="भर्ना सोधपुछ">Admission Enquiry</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-en="Programmes" data-ne="कार्यक्रमहरू">Programmes</h4>
+        <ul>
+          <li data-en="Playgroup (Ages 2–3)" data-ne="प्लेग्रुप (२–३ वर्ष)">Playgroup (Ages 2–3)</li>
+          <li data-en="Nursery Readiness (Ages 3–4)" data-ne="नर्सरी तयारी (३–४ वर्ष)">Nursery Readiness (Ages 3–4)</li>
+          <li data-en="Daycare Facility (10 AM–6 PM)" data-ne="डे केयर सुविधा (१०–६ बजे)">Daycare Facility (10 AM–6 PM)</li>
+          <li data-en="Play Zone & Activities" data-ne="प्ले जोन तथा खेलकुद">Play Zone & Activities</li>
+          <li data-en="Dancing, Singing & Rhymes" data-ne="गीत, नृत्य र अभिनय">Dancing, Singing & Rhymes</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 data-en="Contact Details" data-ne="सम्पर्क विवरण">Contact Details</h4>
+        <p>📍 <span data-en="Ward 4, Janakpurdham, Dhanusha" data-ne="वडा ४, जनकपुरधाम, धनुषा">Ward 4, Janakpurdham, Dhanusha</span></p>
+        <p>☎ <a href="tel:+9779709142797">9709142797</a></p>
+        <p>💬 <a href="https://wa.me/9779709142797" target="_blank" rel="noopener">WhatsApp Support</a></p>
+        <p>✉ <a href="mailto:littlestarplayhouse2026@gmail.com">littlestarplayhouse2026@gmail.com</a></p>
+        <p class="domain-tag">🌐 <small>Domain: littlestarplayhouse.com.np</small></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Little Star Playhouse. <span data-en="All rights reserved." data-ne="सर्वाधिकार सुरक्षित।">All rights reserved.</span></p>
+      <p><small data-en="A Safe Place for Little Stars to Shine • Janakpurdham, Nepal" data-ne="साना ताराहरू चम्किने सुरक्षित स्थान • जनकपुरधाम, नेपाल">A Safe Place for Little Stars to Shine • Janakpurdham, Nepal</small></p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Photo Preview -->
+  <div class="lightbox" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Photo Preview" hidden>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close photo preview">✕</button>
+      <img id="lightboxImage" src="" alt="Enlarged view">
+      <p id="lightboxCaption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>

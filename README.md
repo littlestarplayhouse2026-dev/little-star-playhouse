@@ -3,15 +3,16 @@
 A simple bilingual (English/Nepali), responsive static website starter for Little Star Playhouse, Janakpurdham.
 
 ## Files
-- `index.html` — page content and sections
-- `styles.css` — responsive design and brand colours
-- `script.js` — language switch and mobile navigation
+- `index.html` — page content and sections (includes Notice Board and Photo Gallery)
+- `styles.css` — responsive design, brand colours, gallery grid, and notice styles
+- `script.js` — language switch, mobile navigation, and interactive photo lightbox
+- `images/` — photo assets, posters, notices, and gallery images
 
 ## Preview locally
 Open `index.html` in a browser.
 
 ## Deploy to Vercel for testing
-1. Upload these files to a GitHub repository (keep `index.html`, `styles.css`, and `script.js` in the repository root).
+1. Upload these files to a GitHub repository (keep `index.html`, `styles.css`, and `script.js` in the repository root, alongside the `images/` folder).
 2. In Vercel, choose **Add New → Project** and import the GitHub repository.
 3. For this static site, leave Framework Preset as **Other** and leave Build Command and Output Directory empty unless the interface requires otherwise.
 4. Deploy and test the generated `*.vercel.app` preview URL.
